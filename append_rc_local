@@ -1,0 +1,1 @@
+nohup bash /usr/bin/ss_config.sh 1 > /var/log/ss.log &

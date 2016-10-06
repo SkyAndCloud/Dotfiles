@@ -1,0 +1,23 @@
+### Enable shadowsocks proxy in shell
+# 1. sudo apt-get install polipo
+# 2. sudo vim /etc/polipo/config
+# 3. set service start on boot
+# 4. hp curl ip.gs
+alias hp="http_proxy=http://127.0.0.1:8123"
+
+### Use gbk encode in shell
+# 1. install luit
+alias gbk="luit -encoding gbk"
+
+### Prevent delete file incorrectly
+# 1. pip3 install trash-cli
+alias rm="trash-put"
+
+### Add vi support in shell
+set -o vi
+
+### Let bash display return-code of previous command
+PS1='`a=$?;if [ $a -ne 0  ]; then a="  "$a; echo -ne "\[\e[s\e[1A\e[$((COLUMNS-2))G\e[31m\e[1;41m${a:(-3)}\e[u\]\[\e[0m\e[7m\e[2m\]"; fi`\[\e[1;32m\]\u@\h:\[\e[0m\e[1;34m\]\w\[\e[1;34m\]\$ \[\e[0m\]'
+
+### Add Facebook infer path
+export PATH="/opt/infer-linux64-v0.8.1/infer/bin:/home/yongshan/.opam/4.02.3/bin:/home/yongshan/infer/bin:/home/yongshan/.opam/4.02.3/bin:/usr/java/jdk1.8.0_65/bin:/usr/java/jdk1.8.0_65/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
