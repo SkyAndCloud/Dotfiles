@@ -1,6 +1,11 @@
-
+# Memory used on start
 -Xms512m
+# Memory used on execute
 -Xmx2048m
 -XX:MaxPermSize=768m
 -XX:ReservedCodeCacheSize=768m
 -XX:+UseCompressedOops
+# Font pretify
+-Dawt.useSystemAAFontSettings=on
+-Dsun.java2d.xrender=true
+-Dswing.aatext=true

@@ -13,6 +13,9 @@ alias gbk="luit -encoding gbk"
 # 1. pip3 install trash-cli
 alias rm="trash-put"
 
+### Start AP-hosspot
+alias ap="sudo nmcli nm wifi off;sudo rfkill unblock wlan;sudo create_ap wlan0 eth0 Sin yongshan --daemon > /dev/null"
+
 ### Add vi support in shell
 set -o vi
 
