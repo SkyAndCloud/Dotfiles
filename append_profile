@@ -1,0 +1,9 @@
+# disable beep
+xset -b
+# infer path
+export PATH=/home/yongshan/Code/Github/infer-linux64-v0.9.4.1/infer/bin:$PATH
+# android path
+export ANDROID_HOME=/home/yongshan/Android/Sdk
+export ANDROID_SDK_ROOT=/home/yongshan/Android/Sdk
+export ANDROID_NDK=/home/yongshan/Android/Sdk/ndk-bundle
+export ANDROID_NDK_REPOSITORY=/home/yongshan/Android/Sdk/ndk-bundle
