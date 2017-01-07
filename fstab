@@ -1,1 +1,27 @@
-/etc/fstab
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# /dev/sda6
+UUID=4f609ee8-1559-41f5-9584-a2c9bf3dc6b2	/         	ext4      	defaults,noatime,discard	0 1
+
+# /dev/sda5
+UUID=5d4efd5c-7afd-4fa9-8a46-64e0cdd42bf1	/boot     	ext4      	defaults,noatime,discard        0 2
+
+# /home
+UUID=6562c406-42d7-48de-bc57-ad32c9f74f4b       /home        	ext4      	defaults,noatime,discard	0 2
+
+tmpfs                                           /tmp            tmpfs           defaults,noatime,mode=1777      0 0
+tmpfs                                           /var/tmp        tmpfs           defaults,noatime,mode=1777      0 0
+
+# Windows C
+/dev/sda1                                       /mnt/C          ntfs-3g         uid=yongshan,defaults           0 0
+
+# Windows D
+/dev/sdb1                                       /mnt/D          ntfs-3g         uid=yongshan,defaults           0 0
+
+# Windows E
+/dev/sdb2                                       /mnt/E          ntfs-3g         uid=yongshan,defaults           0 0
+
+# Windows F
+/dev/sdb5                                       /mnt/F          ntfs-3g         uid=yongshan,defaults           0 0

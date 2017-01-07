@@ -1,1 +1,6 @@
-/home/yongshan/.xinputrc
+# im-config(8) generated on Mon, 24 Oct 2016 23:39:33 +0800
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+run_im fcitx
+# im-config signiture: 92784910f490bd97e0b9f2bae6aaf7ab  -
