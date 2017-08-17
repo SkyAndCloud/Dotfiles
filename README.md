@@ -1,1 +1,1 @@
-# Ubuntu14.04-Configs
+# Arch Linux scratch configs
