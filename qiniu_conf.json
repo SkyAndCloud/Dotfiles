@@ -1,8 +1,0 @@
-{
-   		 "access_key": "nnY2_e_QUqTXlM27FfZWZjmslPsaEB3dnzrzrW16",
-   		 "secret_key": "aWtuCV4Z9xO4-KkMa4ddKc7LZPIX_sqp3ARZK_OS",
-   		 "bucket": "yongs",
-   		 "sync_dir": "/home/yongshan/Pictures/Qiniu",
-   		 "async_ops": "fop1;fop2;fopN",
-   		 "debug_level": 1
- }
